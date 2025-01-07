@@ -1,17 +1,22 @@
-# SafeCircle Admin Web
+# SafeCircle 
 ## Overview
 SafeCircle is a personal safety app designed for youth and young adults, offering emergency alerts to both your safety circle and everyone within a 2 km radius. It features customizable alerts, location sharing, and Event Circles for staying connected during events, all for free. SafeCircle addresses the need for accessible safety solutions, making it unique and user-friendly.
 ## Functions
 
 ### Alerts
-- **Overview of the latest alerts:** The admin gets to see the latest alert in a table and on a map.
+- **Send alerts:** Users can send alerts to the general public or specific circles.
+- **View alerts on the map:** Users can see past alerts and their positions when they are in an alert.
 
 ### Circles
-- **View circles:** The admin can get the circle information including information on the users in them.
+- **Manage circles:** Users can create, update, and delete circles, as well as add other users to them.
+- **Accept invitations:** Users can accept invitations to join circles.
+- **View circle alert history:** Users can view the alert history for the circles they belong to.
 
-### Event
-- **View events:** The admin gets an overview of all the events.
-- **Approve events:** The admin can approve or deny an event.
+
+### Events
+- **Join events:** Users can join events and see alerts related to these events, which are intended for larger groups of people.
+- **Request event creation:** Users can submit requests to create new events.
+
 
 ## Installation
 ### Requirments
@@ -21,21 +26,21 @@ SafeCircle is a personal safety app designed for youth and young adults, offerin
 **clone the project from github**
 
 ### Frontend Admin Web
-1. Navigate to the `/admin_web` directory.
+1. Navigate to the `/safecircle_mobile` directory.
 2. Install the required dependencies:
    ```bash
    npm install
    ```
 3. ```bash
-    npm run dev
+    npm expo start
     ```
 4. Use the provided domain in the terminal to access the web application.
 
 ### Backend
 - **backend**: Follow the steps in "**https://github.com/Youmni/safecircle_backend/**".
 
-### Frontend Mobile
-- **Mobile**: Follow the steps in "**https://github.com/ebenhaj2005/safecircle_mobile/**".
+### Frontend Admin Web
+- **Admin-Web**: Follow the steps in "**https://github.com/Youmni/safecircle_web**".
 
 ## Technologies
 1. **React js**: Used for building the web frontend of the application.
@@ -44,6 +49,14 @@ SafeCircle is a personal safety app designed for youth and young adults, offerin
 ## Sources 
 - [@Map](https://pigeon-maps.js.org/)
 - [@UseContext](https://react.dev/reference/react/useContext)
+- [@React Native](https://reactnative.dev/docs/modal)
+- [@i18next](https://www.i18next.com/)
+- [@push notification](https://youtu.be/xYRbYG77M_o?si=DDhX8zPcWF-IdSlB)
+- [@React Native Course](https://www.youtube.com/watch?v=0-S5a0eXPoc&t=2413s)
+- [@SDK error](https://chatgpt.com/share/67599fbf-ed20-8011-a10f-998d45b85a05)
 
-### Author
-- [@Youmni Malha](https://github.com/Youmni)
+### Authors
+- [@Mehmet Schepens](https://github.com/MehmetSpns)
+- [@Brent Vanroelen](https://github.com/brentvanroelen)
+- [@Elias Ebenhaj](https://github.com/ebenhaj2005)
+
